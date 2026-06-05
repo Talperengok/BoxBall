@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54ee9c13ea9f6445ba05dacc3abe4b1, type: 3}
+  m_Name: MainTheme
+  m_EditorClassIdentifier: Assembly-CSharp::UITheme
+  themeName: Default Theme
+  primaryColor: {r: 0.2901961, g: 0.5647059, b: 0.8509804, a: 1}
+  secondaryColor: {r: 0.60784316, g: 0.34901962, b: 0.7137255, a: 1}
+  successColor: {r: 0.2, g: 0.8, b: 0.4, a: 1}
+  warningColor: {r: 1, g: 0.7, b: 0.2, a: 1}
+  dangerColor: {r: 0.9, g: 0.3, b: 0.3, a: 1}
+  backgroundColor: {r: 0.1, g: 0.1, b: 0.18039216, a: 1}
+  panelColor: {r: 0.08627451, g: 0.12941177, b: 0.24313726, a: 1}
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.7}
+  textPrimary: {r: 1, g: 1, b: 1, a: 1}
+  textSecondary: {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 1}
+  textDisabled: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  primaryButton:
+    normalColor: {r: 0.2901961, g: 0.5647059, b: 0.8509804, a: 1}
+    highlightedColor: {r: 0.35686275, g: 0.6392157, b: 0.9254902, a: 1}
+    pressedColor: {r: 0.22745098, g: 0.48235294, b: 0.78431374, a: 1}
+    disabledColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  secondaryButton:
+    normalColor: {r: 0.60784316, g: 0.34901962, b: 0.7137255, a: 1}
+    highlightedColor: {r: 0.6901961, g: 0.42745098, b: 0.7882353, a: 1}
+    pressedColor: {r: 0.53333336, g: 0.27058825, b: 0.627451, a: 1}
+    disabledColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  dangerButton:
+    normalColor: {r: 0.90588236, g: 0.29803923, b: 0.23529412, a: 1}
+    highlightedColor: {r: 0.9607843, g: 0.38039216, b: 0.32156864, a: 1}
+    pressedColor: {r: 0.78039217, g: 0.21960784, b: 0.16470589, a: 1}
+    disabledColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  successButton:
+    normalColor: {r: 0.18, g: 0.8, b: 0.44313726, a: 1}
+    highlightedColor: {r: 0.2627451, g: 0.88, b: 0.52, a: 1}
+    pressedColor: {r: 0.15294118, g: 0.68235296, b: 0.3764706, a: 1}
+    disabledColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  titleFont: {fileID: 0}
+  bodyFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  titleFontSize: 48
+  subtitleFontSize: 32
+  bodyFontSize: 24
+  smallFontSize: 18
+  buttonFontSize: 28
+  buttonHeight: 60
+  buttonCornerRadius: 10
+  panelPadding: 20
+  elementSpacing: 15
+  shadowColor: {r: 0, g: 0, b: 0, a: 0.5}
+  shadowOffset: {x: 2, y: -2}
+  glowColor: {r: 1, g: 1, b: 1, a: 0.3}
